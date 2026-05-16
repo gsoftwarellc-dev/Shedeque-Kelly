@@ -49,7 +49,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     background: white;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border-bottom: 1px solid #eee;
@@ -62,8 +62,8 @@ nav .container {
 }
 
 .logo-wrapper {
-    height: 70px;
-    width: 120px;
+    height: 48px;
+    width: 85px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ nav .container {
     justify-content: center;
     position: relative;
     padding-top: 100px;
-    background: url('redesign/images/WhatsApp Image 2026-05-09 at 11.01.29 AM (1).jpeg') no-repeat center center/cover;
+    background: url('redesign/images/hero-bg.jpeg') no-repeat center center / cover;
     text-align: center;
     color: white;
 }
@@ -132,7 +132,7 @@ nav .container {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.75) 100%);
     z-index: 1;
 }
 
@@ -423,16 +423,16 @@ nav .container {
 
 /* --- Footer --- */
 footer {
-    padding: 6rem 0;
+    padding: 2rem 0;
     background: white;
     color: var(--bg-dark);
     text-align: center;
 }
 
 .footer-logo-wrapper {
-    height: 120px;
-    width: 200px;
-    margin: 0 auto 2rem;
+    height: 60px;
+    width: 100px;
+    margin: 0 auto 0.75rem;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -447,12 +447,13 @@ footer {
 
 .footer p {
     color: #444;
+    font-size: 0.9rem;
 }
 
 .copyright {
     color: #888;
-    font-size: 0.9rem;
-    margin-top: 2rem;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
 }
 
 /* --- Mobile --- */
